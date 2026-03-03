@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
-import { loginUser } from '../../services/authService';
+import { loginUser } from '../../services/authservice';
 import { useAuthStore } from '../../store/authStore';
 export default function Login() {
 const navigate = useNavigate();
